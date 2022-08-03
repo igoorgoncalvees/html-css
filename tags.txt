@@ -1,0 +1,45 @@
+TAGS 
+CAIXAS
+
+header - titulo e subtitulo
+nav - links
+main - conteudo
+article - dentro do main
+footer - rodapé 
+aside - criar outro bloco
+ul - marcar todas as listas
+li - marcar lista por lista
+strong - negrito
+img - colocar imagem
+iframe - colocar video youtube
+
+
+
+STYLE 
+h1 - Estou mexendo no H1 de fora
+header > h1 - eu to mexendo no h1 dentro do Header
+
+main h1 -  mexendo no H1 detro do main
+
+:root - raiz da arvore do documento, serve pro documento inteiro, criar variavel
+
+img width: 100%; - colocar imagem para aparecer em todos os tamanhos
+
+iframe width: 100%; - colocar Video para aparecer em todos os tamanhos
+
+class = .pequena = qual tag quero mexer. 
+
+peguena, display e margin - escolhi a tag, margin que quero que fica e display block pra desbloquear de outras tags
+max-width - 350px; - maximo tamanho da foto
+
+
+backgroud-image - linear-gradient - pra colocar duas cores 
+to botton - pra começar de baixo pra cima. 
+
+padding -  uma das margens
+
+text-decoration - decorar o txto
+
+text-ident - Inicio de paragrafo
+
+line-height - distacia de uma linha na outra

@@ -1,0 +1,12 @@
+HTML - CAIXAS
+Altura - height 
+Largura - width
+Borda - border 
+Criar um espaço do conteudo ate a borda - padding 
+Criar um espaço externo - margin
+
+
+TIPOS DE CAIXAS
+BOX-LEVEL - sempre se inicia em uma linha nova e ocupa o tamanho da tela - <div> 
+
+INLINE-LEVEL - sempre inicia do lado pra completar o conteudo e nao ocupa o tamanho da tela- <span>
