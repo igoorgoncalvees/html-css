@@ -32,7 +32,6 @@ class = .pequena = qual tag quero mexer.
 peguena, display e margin - escolhi a tag, margin que quero que fica e display block pra desbloquear de outras tags
 max-width - 350px; - maximo tamanho da foto
 
-
 backgroud-image - linear-gradient - pra colocar duas cores 
 to botton - pra começar de baixo pra cima. 
 
