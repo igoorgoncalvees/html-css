@@ -9,12 +9,20 @@
             <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            
         }
 
-        table {
-            width: 500px;
-            height: 600px;
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        table {           
+            width: 500px;            
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -26,7 +34,18 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
 
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+
+        }
+
+        tbody tr:nth-child(2n) { /* COLOCAR EFEITO ZEBRADO 2N OU 2N-1 */
+            background-color: lightgray;
+            
         }
         
         .num {
@@ -40,6 +59,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+        CPTION - LEGENDA DA TABELA
             THEAD
                 TR, TD, TH
             TBOOY
@@ -52,6 +72,7 @@
     -->
 
     <table>
+        <caption>População das unidades Federativas</caption>
         <thead>
             <tr>
                 <th>Estado</th>
@@ -109,10 +130,61 @@
             <tr>
                 <th>Total de Habitantes</th>
                 <td class="num"><strong>151.742.125</strong></td>
-
-            </tr>
+            </tr>            
         </tfoot>
+
+        <tr>
+            <td>Sao Paulo </td>
+            <td class="num">46 649 132</td>
+        </tr>            
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">21 411 923</td>
+        </tr>
+        <tr>
+            <td>Rio De Janeiro</td>
+            <td class="num">17 463 349</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class="num"> 14 985 284</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="num">11 597 484</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class="num">11 466 630</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class="num">8 796 448 </td>
+        </tr>
+        <tr>
+            <td>Ceará</td>
+            <td class="num">8 452 381</td>
+        </tr>
+        <tr>
+            <td>Pará</td>
+            <td class="num">7 581 051</td>
+        </tr>
+        <tr>
+            <td>Santa Catarina</td>
+            <td class="num">7 206 589</td>
+        </tr>
+
+    </tbody>
+
+
+    <tfoot>
+        <tr>
+            <th>Total de Habitantes</th>
+            <td class="num"><strong>151.742.125</strong></td>
+
+        </tr>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo quo dignissimos beatae! In voluptates molestias nostrum deserunt. Molestias magni adipisci similique quod sunt id ex rerum unde cumque eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt, aut doloremque dicta perferendis sed. At commodi facilis sit impedit reiciendis error harum explicabo. Sint voluptate harum unde perspiciatis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem unde et magni quo iure possimus ipsa pariatur consequuntur in adipisci soluta nam obcaecati esse, itaque laboriosam voluptatem! Iusto, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis repellat exercitationem, omnis earum quos ad quia eveniet cum illum saepe, doloremque voluptatibus tenetur eligendi. Explicabo aspernatur beatae nisi vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, ad possimus! Sint repudiandae beatae velit amet, totam eum quam voluptas tenetur, quaerat cupiditate qui, possimus ipsum? Quia eaque sint perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro sunt reprehenderit dolor quaerat, animi fuga facilis ipsum tenetur omnis impedit doloremque atque expedita eius sit quia laborum esse!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo quo dignissimos beatae! In voluptates molestias nostrum deserunt. Molestias magni adipisci similique quod sunt id ex rerum unde cumque eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt, aut doloremque dicta perferendis sed. At commodi facilis sit impedit reiciendis error harum explicabo. Sint voluptate harum unde perspiciatis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem unde et magni quo iure possimus ipsa pariatur consequuntur in adipisci soluta nam obcaecati esse, itaque laboriosam voluptatem! Iusto, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis repellat exercitationem, omnis earum quos ad quia eveniet cum illum saepe, doloremque voluptatibus tenetur eligendi. Explicabo aspernatur beatae nisi vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, ad possimus! Sint repudiandae beatae velit amet, totam eum quam voluptas tenetur, quaerat cupiditate qui, possimus ipsum? Quia eaque sint perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro sunt reprehenderit dolor quaerat, animi fuga facilis ipsum tenetur omnis impedit doloremque atque expedita eius sit quia laborum esse!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo quo dignissimos beatae! In voluptates molestias nostrum deserunt. Molestias magni adipisci similique quod sunt id ex rerum unde cumque eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt, aut doloremque dicta perferendis sed. At commodi facilis sit impedit reiciendis error harum explicabo. Sint voluptate harum unde perspiciatis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem unde et magni quo iure possimus ipsa pariatur consequuntur in adipisci soluta nam obcaecati esse, itaque laboriosam voluptatem! Iusto, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis repellat exercitationem, omnis earum quos ad quia eveniet cum illum saepe, doloremque voluptatibus tenetur eligendi. Explicabo aspernatur beatae nisi vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, ad possimus! Sint repudiandae beatae velit amet, totam eum quam voluptas tenetur, quaerat cupiditate qui, possimus ipsum? Quia eaque sint perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro sunt reprehenderit dolor quaerat, animi fuga facilis ipsum tenetur omnis impedit doloremque atque expedita eius sit quia laborum esse!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo quo dignissimos beatae! In voluptates molestias nostrum deserunt. Molestias magni adipisci similique quod sunt id ex rerum unde cumque eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt, aut doloremque dicta perferendis sed. At commodi facilis sit impedit reiciendis error harum explicabo. Sint voluptate harum unde perspiciatis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem unde et magni quo iure possimus ipsa pariatur consequuntur in adipisci soluta nam obcaecati esse, itaque laboriosam voluptatem! Iusto, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis repellat exercitationem, omnis earum quos ad quia eveniet cum illum saepe, doloremque voluptatibus tenetur eligendi. Explicabo aspernatur beatae nisi vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, ad possimus! Sint repudiandae beatae velit amet, totam eum quam voluptas tenetur, quaerat cupiditate qui, possimus ipsum? Quia eaque sint perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro sunt reprehenderit dolor quaerat, animi fuga facilis ipsum tenetur omnis impedit doloremque atque expedita eius sit quia laborum esse!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo quo dignissimos beatae! In voluptates molestias nostrum deserunt. Molestias magni adipisci similique quod sunt id ex rerum unde cumque eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt, aut doloremque dicta perferendis sed. At commodi facilis sit impedit reiciendis error harum explicabo. Sint voluptate harum unde perspiciatis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem unde et magni quo iure possimus ipsa pariatur consequuntur in adipisci soluta nam obcaecati esse, itaque laboriosam voluptatem! Iusto, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis repellat exercitationem, omnis earum quos ad quia eveniet cum illum saepe, doloremque voluptatibus tenetur eligendi. Explicabo aspernatur beatae nisi vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, ad possimus! Sint repudiandae beatae velit amet, totam eum quam voluptas tenetur, quaerat cupiditate qui, possimus ipsum? Quia eaque sint perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro sunt reprehenderit dolor quaerat, animi fuga facilis ipsum tenetur omnis impedit doloremque atque expedita eius sit quia laborum esse!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo quo dignissimos beatae! In voluptates molestias nostrum deserunt. Molestias magni adipisci similique quod sunt id ex rerum unde cumque eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt, aut doloremque dicta perferendis sed. At commodi facilis sit impedit reiciendis error harum explicabo. Sint voluptate harum unde perspiciatis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem unde et magni quo iure possimus ipsa pariatur consequuntur in adipisci soluta nam obcaecati esse, itaque laboriosam voluptatem! Iusto, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis repellat exercitationem, omnis earum quos ad quia eveniet cum illum saepe, doloremque voluptatibus tenetur eligendi. Explicabo aspernatur beatae nisi vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, ad possimus! Sint repudiandae beatae velit amet, totam eum quam voluptas tenetur, quaerat cupiditate qui, possimus ipsum? Quia eaque sint perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro sunt reprehenderit dolor quaerat, animi fuga facilis ipsum tenetur omnis impedit doloremque atque expedita eius sit quia laborum esse!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo quo dignissimos beatae! In voluptates molestias nostrum deserunt. Molestias magni adipisci similique quod sunt id ex rerum unde cumque eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sunt, aut doloremque dicta perferendis sed. At commodi facilis sit impedit reiciendis error harum explicabo. Sint voluptate harum unde perspiciatis inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut autem unde et magni quo iure possimus ipsa pariatur consequuntur in adipisci soluta nam obcaecati esse, itaque laboriosam voluptatem! Iusto, possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nobis repellat exercitationem, omnis earum quos ad quia eveniet cum illum saepe, doloremque voluptatibus tenetur eligendi. Explicabo aspernatur beatae nisi vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, ad possimus! Sint repudiandae beatae velit amet, totam eum quam voluptas tenetur, quaerat cupiditate qui, possimus ipsum? Quia eaque sint perspiciatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus aspernatur porro sunt reprehenderit dolor quaerat, animi fuga facilis ipsum tenetur omnis impedit doloremque atque expedita eius sit quia laborum esse!</p>
 
     
 </body>
